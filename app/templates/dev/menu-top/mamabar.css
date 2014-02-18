@@ -1,0 +1,94 @@
+div.brand-mamabar {
+	position: fixed;
+	width: 100%;
+	height: 18px;
+	_height: 16px;
+	border-bottom: 2px solid #f1f1f1;
+	background-color: #fff;
+	text-align: center;
+	min-width: 1000px;
+	z-index: 9999999999999; /* Just about a max 32bit integer */
+}
+div.brand-mamabar-wrapper {
+	position: relative;
+	width: 99.7%;
+	height: 18px;
+	margin: 0 auto;
+	text-align: left;
+}
+#home-page div.brand-mamabar-wrapper, 
+.club-page div.brand-mamabar-wrapper  {
+	width: 984px;
+}
+
+img.brand-mamabar-logo { 
+	float: right;
+	border: 0;
+}
+ul.brand-mamabar-list {
+	float: left;
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+ul.brand-mamabar-list li {
+	float: left;
+	display: inline;
+	margin: 0 15px 0 0;
+}
+ul.brand-mamabar-list a {
+	display: block;
+	line-height: 18px;
+	color: #9a9a9a;
+	font-size: 11px;
+	text-decoration: none;
+	font-weight: bold;
+	font-family: Arial, Helvetica, sans-serif;
+}
+ul.brand-mamabar-list a:hover { text-decoration: underline; }
+ul.brand-mamabar-list a.brand-mamabar-active { color: #ff9540; }
+li.brand-mamabar-more-link { 
+	position: relative;
+	cursor: pointer;
+	margin-left: -5px;
+}
+li.brand-mamabar-more-link * { cursor: pointer; }
+a.brand-mamabar-more-a {
+	padding-left: 5px;
+	display: block;
+	height: 16px;
+	_width: 1px;
+}
+li.brand-mamabar-more-link-hover a.brand-mamabar-more-a {
+	background: transparent url(mb_tab_left.gif) no-repeat top left;
+	text-decoration: none !important;
+	color: #fff;
+}
+a.brand-mamabar-more-a span {
+	display: block;
+	background: transparent url(mb_tab_right.gif) no-repeat top right;
+	padding-right: 20px;
+	height: 16px;
+}
+li.brand-mamabar-more-link-hover a.brand-mamabar-more-a span { background-position: 100% -29px; }
+li.brand-mamabar-more-link div.brand-mamabar-more-wrapper ul {
+  margin: 0;
+	padding: 7px 0 10px 10px;
+	background: transparent url(mb_topbar.gif) no-repeat top left;
+}
+li.brand-mamabar-more-link div.brand-mamabar-more-wrapper { 
+	clear: both;
+	display: none;
+	position: absolute;
+	width: 138px;
+	left: -83px;
+	background: transparent url(mb_bottombar.png) no-repeat bottom left;
+	_background-image: url(mb_bottombar_ie.gif);
+	_margin-top: -2px;
+}
+li.brand-mamabar-more-link-hover div.brand-mamabar-more-wrapper { display: block; }
+li.brand-mamabar-more-link div.brand-mamabar-more-wrapper li {
+	float: none;
+	display: block;
+  _display: inline;
+}
