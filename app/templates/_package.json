@@ -8,8 +8,8 @@
     "test": "grunt jasmine"
   },
   "author": {
-    "name": "Fancypantsgroup",
-    "url": "http://www.fancypantsgroup.com/"
+    "name": "terry xu",
+    "url": "http://github.com/xzf158"
   },
   "devDependencies": {
     "grunt": "latest",
