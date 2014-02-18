@@ -160,4 +160,6 @@ require.config({
     }]
 });
 
-require(['main', "modernizr"], function() {});
+require(['main', "modernizr", "horn.util/brower.compatible"], function(Main) {
+    Main.init();
+});
