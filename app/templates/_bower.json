@@ -2,10 +2,11 @@
     "name": "<%= _.slugify(appName) %>",
     "version": "0.3.0",
     "dependencies": {
-        "jquery": "~2.0.1",
-        "requirejs": "~2.1.6",
-        "history.js": "latest",
-        "modernizr": "latest"
+        "jquery": "~1.9.0",
+	    "requirejs": "latest",
+	    "history.js": "latest",
+	    "modernizr": "latest",
+	    "requirejs-domready": "latest"
     }
 }
 
