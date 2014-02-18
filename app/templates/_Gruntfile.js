@@ -70,11 +70,11 @@ module.exports = function (grunt) {
         },
         concat: {
             options: {
-                banner: '<%= banner %>',
+                banner: '<%%= banner %>',
                 stripBanners: true
             },
             dist: {
-                src: ['dev/vendors/requirejs/require.js', '<%= concat.dist.dest %>'],
+                src: ['dev/vendors/requirejs/require.js', '<%%= concat.dist.dest %>'],
                 dest: 'dist/scripts/require.js'
             }
         },
@@ -87,7 +87,7 @@ module.exports = function (grunt) {
                 sourceMapPrefix: 'dist/scripts/'
             },
             dist: {
-                src: '<%= concat.dist.dest %>',
+                src: '<%%= concat.dist.dest %>',
                 dest: 'dist/scripts/require.min.js'
             }
         },
@@ -130,7 +130,7 @@ module.exports = function (grunt) {
                     baseUrl: 'dev/scripts/',
                     name: 'config',
                     mainConfigFile: 'dev/scripts/config.js',
-                    out: '<%= concat.dist.dest %>',
+                    out: '<%%= concat.dist.dest %>',
                     optimize: 'none'
                 }
             }
