@@ -1,9 +1,9 @@
 {
-  "name": "yeoman-generator-nick-site",
-  "version": "0.3.4",
+  "name": "nick-site",
+  "version": "0.1",
   "description": "html5 web site generator",
   "keywords": [
-    "yeoman-generator"
+    "yeoman-generator","html5"
   ],
   "homepage": "https://github.com/xzf158/yeoman-generator-nick-site",
   "bugs": "https://github.com/xzf158/yeoman-generator-nick-site/issues",
