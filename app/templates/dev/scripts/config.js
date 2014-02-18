@@ -140,7 +140,9 @@ require.config({
     },
     shim: {
         "nanoscroll": ["jquery"],
-        "autoellipsis": ["jquery"]
+        "autoellipsis": ["jquery"],
+        "page-parallax": ["jquery", "TweenMax"],
+        "smooth-mousewheel": ["jquery"]
     },
     waitSeconds: 0,
     packages: [{
