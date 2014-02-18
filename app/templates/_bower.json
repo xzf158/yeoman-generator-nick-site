@@ -6,7 +6,9 @@
 	    "requirejs": "latest",
 	    "history.js": "latest",
 	    "modernizr": "latest",
-	    "requirejs-domready": "latest"
+	    "requirejs-domready": "latest",
+	    "islider" : "latest",
+	    "smooth-mousewheel": "latest",
+	    "page-parallax": "latest"
     }
 }
-

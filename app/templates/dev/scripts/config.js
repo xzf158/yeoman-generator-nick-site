@@ -134,7 +134,9 @@ require.config({
         "TweenMax": "../vendors/TweenMax.min",
         "videoJs": "../vendors/video-js/video",
         "nanoscroll": "../vendors/jquery.nanoscroller.min",
-        "autoellipsis": "../vendors/jquery.autoellipsis"
+        "autoellipsis": "../vendors/jquery.autoellipsis",
+        "smooth-mousewheel": "../vendors/smooth-mousewheel/dev/smooth_mousewheel",
+        "page-parallax": "../vendors/page-parallax/dev/parallax"
     },
     shim: {
         "nanoscroll": ["jquery"],
