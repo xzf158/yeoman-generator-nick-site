@@ -63,7 +63,7 @@ CoralGenerator.prototype.app = function app() {
   this.template('gitignore', '.gitignore');
   this.template('jshintrc', '.jshintrc');
 
-  this.directory('test/', 'test/');
+  // this.directory('test/', 'test/');
   this.directory('dev/', 'dev/');
 };
 
