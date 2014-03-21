@@ -19,9 +19,15 @@ module.exports = function (grunt) {
                     flags: 'ig'
                 },
                 {
-                    name: 'php-include',
-                    search: '<!--nick-placeholder-->',
-                    replace: '<?php\r\n    error_reporting(0);\r\n    $docRoot = $_SERVER["DOCUMENT_ROOT"];\r\n    include($docRoot."/reporting.html");\r\n    include($docRoot."/common/layout/header/nick_current.php");\r\n    include($docRoot."/common/layout/header/nick_current_mama.php");  \r\n    include($docRoot."/common/layout/footer/nick_current_footer.php ");\r\n?>',
+                    name: 'php-include-nick-tracking',
+                    search: '<!--nick-tracking-->',
+                    replace: '<?php\r\n    error_reporting(0);\r\n    $docRoot = $_SERVER["DOCUMENT_ROOT"];\r\n    include($docRoot."/reporting.html");\r\n?>',
+                    flags: 'ig'
+                },
+                {
+                    name: 'php-include-nick_current_mama',
+                    search: '<!--nick_current_mama-->',
+                    replace: '<?php\r\n include($docRoot."/common/layout/header/nick_current_mama.php");\r\n?>',
                     flags: 'ig'
                 }]
             }
