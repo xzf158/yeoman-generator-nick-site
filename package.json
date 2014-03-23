@@ -1,6 +1,6 @@
 {
   "name": "generator-nick-site",
-  "version": "0.3.7",
+  "version": "0.3.8",
   "description": "html5 web site generator",
   "keywords": [
     "yeoman-generator","html5"
